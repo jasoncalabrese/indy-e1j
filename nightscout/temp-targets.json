@@ -128,17 +128,5 @@
     "insulin": null, 
     "duration": 60, 
     "_id": "5804259365110bbfc19456ff"
-  }, 
-  {
-    "carbs": null, 
-    "eventType": "Temporary Target", 
-    "created_at": "2016-10-17T00:04:53.853Z", 
-    "targetBottom": 80, 
-    "enteredBy": "Maker", 
-    "targetTop": 80, 
-    "reason": "Eating Soon", 
-    "insulin": null, 
-    "duration": 60, 
-    "_id": "580415a565110bbfc19456ea"
   }
 ]
