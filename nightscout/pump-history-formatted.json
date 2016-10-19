@@ -3,6 +3,35 @@
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
+      "_description": "TempBasal 2016-10-18T22:03:36 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-10-18T22:03:36-07:00", 
+      "_body": "00", 
+      "_head": "3382", 
+      "rate": 3.25, 
+      "_date": "a483165210"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2016-10-18T22:03:36 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-10-18T22:03:36-07:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "a483165210"
+    }, 
+    "created_at": "2016-10-18T22:03:36-07:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "rate": 3.25, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2016-10-18T22:03:36-07:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "3.25"
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
       "_description": "TempBasal 2016-10-18T21:51:54 head[2], body[1] op[0x33]", 
       "timestamp": "2016-10-18T21:51:54-07:00", 
       "_body": "00", 
@@ -20,7 +49,7 @@
       "_date": "b6b3155210"
     }, 
     "created_at": "2016-10-18T21:51:54-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 3.025, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T21:51:54-07:00", 
@@ -49,7 +78,7 @@
       "_date": "b5aa155210"
     }, 
     "created_at": "2016-10-18T21:42:53-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.6, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T21:42:53-07:00", 
@@ -78,7 +107,7 @@
       "_date": "9c98155210"
     }, 
     "created_at": "2016-10-18T21:24:28-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T21:24:28-07:00", 
@@ -107,7 +136,7 @@
       "_date": "ab8c155210"
     }, 
     "created_at": "2016-10-18T21:12:43-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T21:12:43-07:00", 
@@ -136,7 +165,7 @@
       "_date": "ae8b155210"
     }, 
     "created_at": "2016-10-18T21:11:46-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.175, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T21:11:46-07:00", 
@@ -165,7 +194,7 @@
       "_date": "b788155210"
     }, 
     "created_at": "2016-10-18T21:08:55-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.85, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T21:08:55-07:00", 
@@ -176,11 +205,11 @@
   {
     "_type": "PumpResume", 
     "_description": "PumpResume 2016-10-18T20:56:55 head[2], body[0] op[0x1f]", 
-    "notes": "PumpResume  ", 
+    "notes": "PumpResume 723 ", 
     "timestamp": "2016-10-18T20:56:55-07:00", 
     "_body": "", 
     "_head": "1f20", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/PumpResume", 
     "eventType": "Note", 
     "created_at": "2016-10-18T20:56:55-07:00", 
@@ -189,11 +218,11 @@
   {
     "_type": "PumpSuspend", 
     "_description": "PumpSuspend 2016-10-18T20:48:39 head[2], body[0] op[0x1e]", 
-    "notes": "PumpSuspend  ", 
+    "notes": "PumpSuspend 723 ", 
     "timestamp": "2016-10-18T20:48:39-07:00", 
     "_body": "", 
     "_head": "1e01", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/PumpSuspend", 
     "eventType": "Note", 
     "created_at": "2016-10-18T20:48:39-07:00", 
@@ -220,7 +249,7 @@
       "_date": "9ab0141210"
     }, 
     "created_at": "2016-10-18T20:48:26-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T20:48:26-07:00", 
@@ -249,7 +278,7 @@
       "_date": "a9a6145210"
     }, 
     "created_at": "2016-10-18T20:38:41-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T20:38:41-07:00", 
@@ -278,7 +307,7 @@
       "_date": "b7a5145210"
     }, 
     "created_at": "2016-10-18T20:37:55-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T20:37:55-07:00", 
@@ -307,7 +336,7 @@
       "_date": "899f145210"
     }, 
     "created_at": "2016-10-18T20:31:09-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.7, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T20:31:09-07:00", 
@@ -336,7 +365,7 @@
       "_date": "bb98145210"
     }, 
     "created_at": "2016-10-18T20:24:59-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.35, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T20:24:59-07:00", 
@@ -365,7 +394,7 @@
       "_date": "8394145210"
     }, 
     "created_at": "2016-10-18T20:20:03-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T20:20:03-07:00", 
@@ -394,7 +423,7 @@
       "_date": "868f145210"
     }, 
     "created_at": "2016-10-18T20:15:06-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.85, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T20:15:06-07:00", 
@@ -423,7 +452,7 @@
       "_date": "9c8b145210"
     }, 
     "created_at": "2016-10-18T20:11:28-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T20:11:28-07:00", 
@@ -452,7 +481,7 @@
       "_date": "a086145210"
     }, 
     "created_at": "2016-10-18T20:06:32-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.85, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T20:06:32-07:00", 
@@ -481,7 +510,7 @@
       "_date": "b985145210"
     }, 
     "created_at": "2016-10-18T20:05:57-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.75, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T20:05:57-07:00", 
@@ -548,7 +577,7 @@
       "sensitivity": 90, 
       "_date": "ba80141210"
     }, 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "insulin": "1.8", 
     "eventType": "Meal Bolus", 
     "duration": "0", 
@@ -576,7 +605,7 @@
       "_date": "8db6135210"
     }, 
     "created_at": "2016-10-18T19:54:13-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.3, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T19:54:13-07:00", 
@@ -605,7 +634,7 @@
       "_date": "afaf135210"
     }, 
     "created_at": "2016-10-18T19:47:47-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0.975, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T19:47:47-07:00", 
@@ -634,7 +663,7 @@
       "_date": "91a6135210"
     }, 
     "created_at": "2016-10-18T19:38:17-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T19:38:17-07:00", 
@@ -663,7 +692,7 @@
       "_date": "a3a5135210"
     }, 
     "created_at": "2016-10-18T19:37:35-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T19:37:35-07:00", 
@@ -692,7 +721,7 @@
       "_date": "baa1135210"
     }, 
     "created_at": "2016-10-18T19:33:58-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0.925, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T19:33:58-07:00", 
@@ -721,7 +750,7 @@
       "_date": "a5b2125210"
     }, 
     "created_at": "2016-10-18T18:50:37-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.55, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T18:50:37-07:00", 
@@ -750,7 +779,7 @@
       "_date": "a1a0125210"
     }, 
     "created_at": "2016-10-18T18:32:33-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 1.375, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T18:32:33-07:00", 
@@ -779,7 +808,7 @@
       "_date": "8e93125210"
     }, 
     "created_at": "2016-10-18T18:19:14-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0.8, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T18:19:14-07:00", 
@@ -808,7 +837,7 @@
       "_date": "b484125210"
     }, 
     "created_at": "2016-10-18T18:04:52-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0.8, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T18:04:52-07:00", 
@@ -837,7 +866,7 @@
       "_date": "aeb9115210"
     }, 
     "created_at": "2016-10-18T17:57:46-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T17:57:46-07:00", 
@@ -866,7 +895,7 @@
       "_date": "b4b2115210"
     }, 
     "created_at": "2016-10-18T17:50:52-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0.8, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T17:50:52-07:00", 
@@ -895,7 +924,7 @@
       "_date": "a4a5115210"
     }, 
     "created_at": "2016-10-18T17:37:36-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0.8, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T17:37:36-07:00", 
@@ -924,7 +953,7 @@
       "_date": "8894115210"
     }, 
     "created_at": "2016-10-18T17:20:08-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0.8, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T17:20:08-07:00", 
@@ -953,7 +982,7 @@
       "_date": "848e115210"
     }, 
     "created_at": "2016-10-18T17:14:04-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 3, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T17:14:04-07:00", 
@@ -1016,7 +1045,7 @@
       "sensitivity": 90, 
       "_date": "9487111210"
     }, 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "insulin": "0.8", 
     "eventType": "Meal Bolus", 
     "duration": "0", 
@@ -1044,7 +1073,7 @@
       "_date": "9db8105210"
     }, 
     "created_at": "2016-10-18T16:56:29-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T16:56:29-07:00", 
@@ -1059,7 +1088,7 @@
     "_body": "", 
     "glucoseType": "Finger", 
     "_head": "0a33", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "amount": 51, 
     "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
     "eventType": "BG Check", 
@@ -1088,7 +1117,7 @@
       "_date": "b8ab105210"
     }, 
     "created_at": "2016-10-18T16:43:56-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T16:43:56-07:00", 
@@ -1117,7 +1146,7 @@
       "_date": "869e105210"
     }, 
     "created_at": "2016-10-18T16:30:06-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T16:30:06-07:00", 
@@ -1146,7 +1175,7 @@
       "_date": "b491105210"
     }, 
     "created_at": "2016-10-18T16:17:52-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T16:17:52-07:00", 
@@ -1175,7 +1204,7 @@
       "_date": "af84105210"
     }, 
     "created_at": "2016-10-18T16:04:47-07:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/723", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-10-18T16:04:47-07:00", 
