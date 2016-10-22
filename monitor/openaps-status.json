@@ -7,76 +7,77 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-10-22T18:32:29.000Z", 
+      "timestamp": "2016-10-22T18:36:29.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 155.75, 
-    "clock": "2016-10-22T11:32:36-07:00"
+    "clock": "2016-10-22T11:36:44-07:00"
   }, 
   "uploader": {
-    "battery": 65, 
-    "batteryVoltage": 3829
+    "battery": 64, 
+    "batteryVoltage": 3821
   }, 
   "openaps": {
     "suggested": {
-      "bg": 114, 
+      "bg": 101, 
       "temp": "absolute", 
-      "snoozeBG": 53, 
-      "timestamp": "2016-10-22T18:34:23.000Z", 
+      "snoozeBG": 35, 
+      "timestamp": "2016-10-22T18:38:22.000Z", 
       "predBGs": {
         "IOB": [
-          114, 
-          102, 
-          91, 
-          81, 
-          73, 
-          65, 
-          59, 
-          54, 
-          50, 
-          48, 
-          46, 
-          46, 
+          101, 
+          89, 
+          78, 
+          69, 
+          60, 
+          53, 
           47, 
+          42, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          40, 
+          41, 
+          43, 
+          44, 
+          45, 
+          46, 
           48, 
           49, 
           50, 
           51, 
           52, 
+          53, 
+          53, 
           54, 
           55, 
-          57, 
-          58, 
-          59, 
-          60, 
-          62, 
-          63, 
-          63, 
-          64, 
-          65, 
-          66, 
-          67, 
-          67, 
-          68, 
-          68, 
-          69
+          55, 
+          56, 
+          56, 
+          56, 
+          57
         ]
       }, 
-      "reason": "COB: 0, Dev: -62, BGI: -0.6, ISF: 92, Target: 111; Eventual BG 53 < 111, setting -1.925U/hr, but 28m left and 0 ~ req 0U/hr: no action required", 
+      "reason": "COB: 0, Dev: -72, BGI: -0.55, ISF: 92, Target: 111; Eventual BG 35 < 111, setting -2.7U/hr, but 24m left and 0 ~ req 0U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 53, 
+      "eventualBG": 35, 
       "tick": -13, 
-      "IOB": -0.014
+      "IOB": -0.068
     }, 
     "iob": {
-      "netbasalinsulin": 0.1, 
-      "timestamp": "2016-10-22T18:32:36.000Z", 
-      "activity": 0.0013, 
-      "basaliob": -0.014, 
+      "netbasalinsulin": 0.05, 
+      "timestamp": "2016-10-22T18:36:44.000Z", 
+      "activity": 0.0012, 
+      "basaliob": -0.068, 
       "hightempinsulin": 0.3, 
       "bolussnooze": 0, 
-      "iob": -0.014
+      "iob": -0.068
     }, 
     "enacted": {
       "bg": 127, 
@@ -98,27 +99,27 @@
       [
         "916.540", 
         1, 
-        -92
+        -93
       ], 
       [
         "916.564", 
         5, 
-        -56
+        -53
       ], 
       [
         "916.588", 
         5, 
-        -54
+        -52
       ], 
       [
         "916.612", 
         5, 
-        -53
+        -51
       ], 
       [
         "916.636", 
         5, 
-        -53
+        -49
       ], 
       [
         "916.660", 
@@ -128,11 +129,11 @@
       [
         "916.684", 
         5, 
-        -56
+        -55
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-10-22T18:32:08.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2016-10-22T18:36:08.000Z", 
     "usedDefault": false
   }
 }
