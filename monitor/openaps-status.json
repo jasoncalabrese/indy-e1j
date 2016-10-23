@@ -7,86 +7,179 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-10-23T00:30:57.000Z", 
+      "timestamp": "2016-10-23T00:37:24.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 147.625, 
-    "clock": "2016-10-22T17:31:13-07:00"
+    "reservoir": 147.525, 
+    "clock": "2016-10-22T17:37:40-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4376
+    "batteryVoltage": 4370
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2016-10-23T00:32:57.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Jul 24 2016 16:59:07 GMT-0700 (PDT) but your system time is Sat Oct 22 2016 17:32:57 GMT-0700 (PDT)"
+      "bg": 121, 
+      "temp": "absolute", 
+      "snoozeBG": 124, 
+      "timestamp": "2016-10-23T00:39:07.000Z", 
+      "reason": "COB: 5, Dev: 3, BGI: -2.43, ISF: 92, Target: 111; Eventual BG 124 >= 111, 21m@0.425 = 0.149 > req 0.05+20%. Setting temp basal of 0.725U/hr", 
+      "rate": 0.725, 
+      "COB": 5, 
+      "eventualBG": 124, 
+      "duration": 30, 
+      "tick": -2, 
+      "IOB": 0.002
     }, 
     "iob": {
-      "netbasalinsulin": 1.2, 
-      "timestamp": "2016-10-23T00:31:13.000Z", 
-      "activity": 0.0064, 
-      "basaliob": -0.013, 
-      "hightempinsulin": 1.7, 
+      "netbasalinsulin": 1.25, 
+      "timestamp": "2016-10-23T00:37:40.000Z", 
+      "activity": 0.0053, 
+      "basaliob": 0.002, 
+      "hightempinsulin": 1.75, 
       "bolussnooze": 0, 
-      "iob": -0.013
+      "iob": 0.002
     }, 
     "enacted": {
-      "bg": 125, 
+      "bg": 121, 
       "temp": "absolute", 
-      "snoozeBG": 139, 
+      "snoozeBG": 124, 
       "recieved": true, 
-      "rate": 1.05, 
-      "reason": "COB: 7, Dev: 11, BGI: -3.4, ISF: 92, Target: 111; Eventual BG 159 >= 111, temp 0.65<1.05U/hr", 
-      "COB": 7, 
-      "eventualBG": 159, 
-      "timestamp": "2016-10-23T00:27:59.000Z", 
+      "predBGs": {
+        "COB": [
+          121, 
+          119, 
+          117, 
+          116, 
+          115, 
+          114, 
+          114, 
+          114, 
+          114, 
+          115, 
+          115, 
+          116, 
+          117, 
+          118, 
+          118, 
+          119, 
+          119, 
+          119, 
+          120, 
+          120, 
+          120, 
+          120, 
+          120, 
+          120, 
+          121, 
+          121, 
+          121, 
+          121, 
+          121, 
+          121, 
+          121, 
+          121, 
+          121, 
+          121, 
+          121, 
+          121, 
+          122, 
+          122, 
+          122, 
+          122, 
+          123
+        ], 
+        "aCOB": [
+          121, 
+          127, 
+          131, 
+          133, 
+          134, 
+          133, 
+          132, 
+          132, 
+          132, 
+          132, 
+          132, 
+          133, 
+          133, 
+          133, 
+          133, 
+          134, 
+          134, 
+          134, 
+          134, 
+          133, 
+          133, 
+          133, 
+          133, 
+          133, 
+          133, 
+          132, 
+          132, 
+          132, 
+          132, 
+          131, 
+          131, 
+          131, 
+          131, 
+          130
+        ], 
+        "IOB": [
+          121, 
+          119, 
+          117, 
+          116, 
+          115, 
+          114, 
+          114, 
+          113, 
+          113, 
+          113, 
+          114, 
+          114, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          114, 
+          114, 
+          114, 
+          114, 
+          114, 
+          113, 
+          113, 
+          113, 
+          113, 
+          112, 
+          112, 
+          112, 
+          112, 
+          112, 
+          111
+        ]
+      }, 
+      "rate": 0.7, 
+      "reason": "COB: 5, Dev: 3, BGI: -2.43, ISF: 92, Target: 111; Eventual BG 124 >= 111, 21m@0.425 = 0.149 > req 0.05+20%. Setting temp basal of 0.725U/hr", 
+      "COB": 5, 
+      "eventualBG": 124, 
+      "timestamp": "2016-10-23T00:39:28.000Z", 
       "duration": 30, 
-      "tick": "+3", 
-      "IOB": -0.029
+      "tick": -2, 
+      "IOB": 0.002
     }
   }, 
   "mmtune": {
-    "scanDetails": [
-      [
-        "916.564", 
-        5, 
-        -77
-      ], 
-      [
-        "916.588", 
-        5, 
-        -76
-      ], 
-      [
-        "916.612", 
-        5, 
-        -81
-      ], 
-      [
-        "916.636", 
-        5, 
-        -77
-      ], 
-      [
-        "916.660", 
-        5, 
-        -72
-      ], 
-      [
-        "916.684", 
-        5, 
-        -73
-      ], 
-      [
-        "916.708", 
-        5, 
-        -84
-      ]
-    ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-10-23T00:30:36.000Z", 
-    "usedDefault": false
+    "scanDetails": [], 
+    "setFreq": 916.63, 
+    "timestamp": "2016-10-23T00:37:01.000Z", 
+    "usedDefault": true
   }
 }
