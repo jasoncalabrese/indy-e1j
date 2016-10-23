@@ -481,13 +481,5 @@
     "notes": "Normal bolus with wizard.\nProgrammed bolus 0.8\nDelivered bolus 0.8\nPercent delivered:  100%\nFood estimate 1.3\nCorrection estimate 50.7\nBolus estimate 0.8\nTarget low 110\nTarget high 180\nHypothetical glucose delta -72\nGlucose was: 65", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus", 
     "glucose": 65
-  }, 
-  {
-    "carbs": 7, 
-    "eventType": "Carb Correction", 
-    "created_at": "2016-10-22T05:05:07.527Z", 
-    "enteredBy": "Maker", 
-    "insulin": null, 
-    "_id": "580af38365110bbfc19462fc"
   }
 ]
