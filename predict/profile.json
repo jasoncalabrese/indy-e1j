@@ -93,6 +93,6 @@
   "dia": 3, 
   "autosens_adjust_targets": true, 
   "carb_ratio": 11.700000000000001, 
-  "model": "723", 
+  "model": {}, 
   "autosens_max": 1.5
 }
