@@ -1,0 +1,38 @@
+{
+  "bg": 207, 
+  "temp": "absolute", 
+  "snoozeBG": 85, 
+  "recieved": true, 
+  "predBGs": {
+    "IOB": [
+      207, 
+      198, 
+      190, 
+      181, 
+      173, 
+      164, 
+      154, 
+      145, 
+      136, 
+      126, 
+      117, 
+      108, 
+      99, 
+      90, 
+      81, 
+      72, 
+      63, 
+      55, 
+      46, 
+      39
+    ]
+  }, 
+  "reason": "COB: 0, Dev: 19, BGI: -3.4, ISF: 96, Target: 113; Eventual BG 85 < 113, setting -0.65U/hr", 
+  "rate": 0.0, 
+  "COB": 0, 
+  "eventualBG": 85, 
+  "timestamp": "2016-10-24T08:55:26.312672", 
+  "duration": 30, 
+  "tick": -9, 
+  "IOB": 1.47
+}
