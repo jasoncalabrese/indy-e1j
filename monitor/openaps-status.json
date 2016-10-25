@@ -7,96 +7,86 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-10-25T05:40:21.000Z", 
+      "timestamp": "2016-10-25T05:51:35.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 113.125, 
-    "clock": "2016-10-24T22:40:28-07:00"
+    "reservoir": 112.95, 
+    "clock": "2016-10-24T22:51:51-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4373
+    "batteryVoltage": 4374
   }, 
   "openaps": {
     "suggested": {
-      "bg": 255, 
+      "bg": 248, 
       "temp": "absolute", 
-      "snoozeBG": 87, 
-      "timestamp": "2016-10-25T05:42:19.000Z", 
-      "reason": "COB: 0, Dev: 23, BGI: -8.1, ISF: 100, Target: 80; Eventual BG 87 >= 80, temp 0.125<0.85U/hr", 
-      "rate": 0.85, 
+      "snoozeBG": 118, 
+      "timestamp": "2016-10-25T05:53:39.000Z", 
+      "reason": "COB: 0, Dev: 36, BGI: -9.15, ISF: 100, Target: 80; Eventual BG 118 >= 80, temp 0.85<1.35U/hr", 
+      "rate": 1.35, 
       "COB": 0, 
-      "eventualBG": 87, 
+      "eventualBG": 118, 
       "duration": 30, 
-      "tick": -2, 
-      "IOB": 1.911
+      "tick": -3, 
+      "IOB": 1.659
     }, 
     "iob": {
-      "netbasalinsulin": 1.95, 
-      "timestamp": "2016-10-25T05:40:28.000Z", 
-      "activity": 0.0162, 
-      "basaliob": 1.887, 
-      "hightempinsulin": 2.6, 
+      "netbasalinsulin": 1.9, 
+      "timestamp": "2016-10-25T05:51:51.000Z", 
+      "activity": 0.0183, 
+      "basaliob": 1.656, 
+      "hightempinsulin": 2.45, 
       "bolussnooze": 0, 
-      "iob": 1.911
+      "iob": 1.659
     }, 
     "enacted": {
-      "bg": 255, 
+      "bg": 248, 
       "temp": "absolute", 
-      "snoozeBG": 87, 
+      "snoozeBG": 118, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
-          255, 
-          250, 
-          245, 
-          239, 
-          232, 
-          225, 
-          217, 
-          209, 
-          200, 
-          192, 
-          183, 
-          174, 
+          248, 
+          244, 
+          240, 
+          235, 
+          229, 
+          222, 
+          215, 
+          207, 
+          199, 
+          190, 
+          182, 
+          173, 
           165, 
           157, 
-          149, 
+          150, 
           143, 
-          137, 
+          138, 
           132, 
           127, 
           123, 
           119, 
-          117, 
+          116, 
           114, 
-          112, 
           111, 
           110, 
-          109, 
           108, 
-          108, 
-          108, 
-          109, 
-          109, 
-          109, 
-          110, 
-          110, 
-          111, 
-          111, 
-          111, 
-          112
+          107, 
+          107, 
+          106
         ]
       }, 
-      "rate": 0.85, 
-      "reason": "COB: 0, Dev: 23, BGI: -8.1, ISF: 100, Target: 80; Eventual BG 87 >= 80, temp 0.125<0.85U/hr", 
+      "rate": 1.35, 
+      "reason": "COB: 0, Dev: 36, BGI: -9.15, ISF: 100, Target: 80; Eventual BG 118 >= 80, temp 0.85<1.35U/hr", 
       "COB": 0, 
-      "eventualBG": 87, 
-      "timestamp": "2016-10-25T05:42:42.000Z", 
+      "eventualBG": 118, 
+      "timestamp": "2016-10-25T05:54:03.000Z", 
       "duration": 30, 
-      "tick": -2, 
-      "IOB": 1.911
+      "tick": -3, 
+      "IOB": 1.659
     }
   }, 
   "mmtune": {
@@ -104,41 +94,36 @@
       [
         "916.564", 
         5, 
-        -72
+        -89
       ], 
       [
         "916.588", 
         5, 
-        -66
+        -87
       ], 
       [
         "916.612", 
         5, 
-        -63
+        -86
       ], 
       [
         "916.636", 
         5, 
-        -63
+        -87
       ], 
       [
         "916.660", 
         5, 
-        -64
+        -86
       ], 
       [
         "916.684", 
         5, 
-        -66
-      ], 
-      [
-        "916.708", 
-        5, 
-        -77
+        -88
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2016-10-25T05:39:51.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-10-25T05:51:14.000Z", 
     "usedDefault": false
   }
 }
