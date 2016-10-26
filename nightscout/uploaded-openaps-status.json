@@ -1,17 +1,17 @@
 [
   {
-    "created_at": "2016-10-26T01:00:10.144Z", 
+    "created_at": "2016-10-26T01:05:38.462Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.564", 
           5, 
-          -71
+          -74
         ], 
         [
           "916.588", 
           5, 
-          -62
+          -64
         ], 
         [
           "916.612", 
@@ -31,66 +31,43 @@
         [
           "916.684", 
           5, 
-          -64
+          -63
         ], 
         [
           "916.708", 
           5, 
-          -72
+          -71
         ]
       ], 
       "setFreq": 916.66, 
       "usedDefault": false, 
-      "timestamp": "2016-10-26T00:57:02.000Z"
+      "timestamp": "2016-10-26T01:03:14.000Z"
     }, 
     "pump": {
       "battery": {
         "status": "normal", 
-        "voltage": 1.57
+        "voltage": 1.58
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-10-26T00:57:23.000Z", 
+        "timestamp": "2016-10-26T01:03:38.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 96.375, 
-      "clock": "2016-10-25T17:57:40-07:00"
+      "reservoir": 96.3, 
+      "clock": "2016-10-25T18:03:55-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 135, 
+        "bg": 131, 
         "temp": "absolute", 
-        "snoozeBG": 115, 
-        "timestamp": "2016-10-26T00:59:35.000Z", 
-        "rate": 0.675, 
-        "reason": "COB: 0, Dev: 8, BGI: -3.33, ISF: 87, Target: 108; Eventual BG 115 > 108 but Min. Delta -4.00 < Exp. Delta -3.7; setting current basal of 0.675 as temp", 
-        "COB": 0, 
-        "eventualBG": 115, 
-        "duration": 30, 
-        "tick": -4, 
-        "IOB": 0.323
-      }, 
-      "iob": {
-        "netbasalinsulin": 0.25, 
-        "timestamp": "2016-10-26T00:57:40.000Z", 
-        "activity": 0.0077, 
-        "basaliob": 0.298, 
-        "hightempinsulin": 0.9, 
-        "bolussnooze": 0, 
-        "iob": 0.323
-      }, 
-      "enacted": {
-        "bg": 135, 
-        "temp": "absolute", 
-        "snoozeBG": 115, 
-        "recieved": true, 
+        "snoozeBG": 107, 
+        "timestamp": "2016-10-26T01:05:30.000Z", 
         "predBGs": {
           "IOB": [
-            135, 
             131, 
             127, 
-            124, 
+            123, 
             120, 
             117, 
             114, 
@@ -98,32 +75,34 @@
             109, 
             107, 
             105, 
-            103, 
+            104, 
             102, 
+            101, 
+            101, 
             100, 
-            99, 
-            98, 
-            97, 
-            96, 
-            96, 
-            95, 
-            95, 
-            94, 
-            94, 
-            94, 
-            93, 
-            93, 
-            93, 
-            93, 
-            92, 
-            92, 
-            92, 
-            92, 
-            92, 
-            92, 
-            91
+            99
           ]
         }, 
+        "reason": "COB: 0, Dev: 0, BGI: -3.23, ISF: 87, Target: 109; Eventual BG 107 < 109, temp 0.675 ~< req 0.575U/hr", 
+        "COB": 0, 
+        "eventualBG": 107, 
+        "tick": -4, 
+        "IOB": 0.277
+      }, 
+      "iob": {
+        "netbasalinsulin": 0.3, 
+        "timestamp": "2016-10-26T01:03:55.000Z", 
+        "activity": 0.0074, 
+        "basaliob": 0.26, 
+        "hightempinsulin": 0.9, 
+        "bolussnooze": 0, 
+        "iob": 0.277
+      }, 
+      "enacted": {
+        "bg": 135, 
+        "temp": "absolute", 
+        "snoozeBG": 115, 
+        "recieved": true, 
         "reason": "COB: 0, Dev: 8, BGI: -3.33, ISF: 87, Target: 108; Eventual BG 115 > 108 but Min. Delta -4.00 < Exp. Delta -3.7; setting current basal of 0.675 as temp", 
         "rate": 0.675, 
         "COB": 0, 
@@ -136,9 +115,9 @@
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4371
+      "batteryVoltage": 4372
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "5810001acbbeead029c711f6"
+    "_id": "58100162cbbeead029c711f7"
   }
 ]
