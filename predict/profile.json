@@ -2,7 +2,7 @@
   "temptargetSet": true, 
   "min_bg": 80, 
   "max_iob": 3, 
-  "max_daily_basal": 0.9, 
+  "max_daily_basal": 0.925, 
   "isfProfile": {
     "units": "mg/dL", 
     "sensitivities": [
@@ -25,13 +25,13 @@
     {
       "i": 0, 
       "start": "00:00:00", 
-      "rate": 0.8, 
+      "rate": 0.8250000000000001, 
       "minutes": 0
     }, 
     {
       "i": 1, 
       "start": "01:00:00", 
-      "rate": 0.7000000000000001, 
+      "rate": 0.7250000000000001, 
       "minutes": 60
     }, 
     {
@@ -42,9 +42,9 @@
     }, 
     {
       "i": 3, 
-      "start": "04:00:00", 
+      "start": "03:30:00", 
       "rate": 0.5, 
-      "minutes": 240
+      "minutes": 210
     }, 
     {
       "i": 4, 
@@ -78,16 +78,16 @@
     }, 
     {
       "i": 9, 
-      "start": "21:30:00", 
-      "rate": 0.9, 
-      "minutes": 1290
+      "start": "21:00:00", 
+      "rate": 0.925, 
+      "minutes": 1260
     }
   ], 
   "max_bg": 80, 
   "autosens_min": 0.9, 
   "max_daily_safety_multiplier": 5, 
   "min_5m_carbimpact": 4, 
-  "current_basal": 0.8, 
+  "current_basal": 0.925, 
   "max_basal": 3.25, 
   "type": "current", 
   "bolussnooze_dia_divisor": 2, 
