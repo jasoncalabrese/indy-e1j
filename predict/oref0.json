@@ -9,15 +9,7 @@
       114, 
       114, 
       114, 
-      115, 
-      115, 
-      115, 
-      115, 
-      115, 
-      115, 
-      115, 
-      115, 
-      115, 
+      114, 
       115, 
       115, 
       115, 
@@ -33,9 +25,9 @@
       114
     ]
   }, 
-  "reason": "COB: 0, Dev: -3, BGI: 0.77, ISF: 90, Target: 110; Eventual BG 113 > 110 but Min. Delta 0.24 < Exp. Delta 0.6; setting current basal of 0.825 as temp, but 29m left and 0.8 ~ req 0.825U/hr: no action required", 
+  "reason": "COB: 0, Dev: -3, BGI: 0.77, ISF: 90, Target: 110; Eventual BG 113 > 110 but Min. Delta 0.24 < Exp. Delta 0.6; setting current basal of 0.85 as temp, but 25m left and 0.8 ~ req 0.85U/hr: no action required", 
   "COB": 0, 
   "eventualBG": 113, 
   "tick": "+1", 
-  "IOB": -0.034
+  "IOB": -0.028
 }
