@@ -1,6 +1,22 @@
 [
   {
     "_type": "Prime", 
+    "_description": "Prime 2016-10-28T05:24:07 head[5], body[0] op[0x03]", 
+    "notes": "Prime 723 ", 
+    "timestamp": "2016-10-28T05:24:07-07:00", 
+    "_body": "", 
+    "_head": "0300030003", 
+    "enteredBy": "openaps://medtronic/723", 
+    "amount": 0.3, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime", 
+    "eventType": "Note", 
+    "fixed": 0.3, 
+    "type": "fixed", 
+    "created_at": "2016-10-28T05:24:07-07:00", 
+    "_date": "8798051c10"
+  }, 
+  {
+    "_type": "Prime", 
     "_description": "Prime 2016-10-28T05:12:51 head[5], body[0] op[0x03]", 
     "notes": "Prime 723 ", 
     "timestamp": "2016-10-28T05:12:51-07:00", 
