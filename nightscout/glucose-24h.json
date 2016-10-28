@@ -1,5 +1,22 @@
 [
   {
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-10-27T17:18:23-07:00", 
+    "noise": 1, 
+    "system_time": "2016-10-28T00:06:15-07:00", 
+    "direction": "Flat", 
+    "sgv": 108, 
+    "dateString": "2016-10-27T17:18:23-07:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 120912, 
+    "rssi": 182, 
+    "date": 1477613903000, 
+    "filtered": 115904, 
+    "_id": "58129a1565110bbfc1947113", 
+    "type": "sgv", 
+    "glucose": 108
+  }, 
+  {
     "trend_arrow": "45_UP", 
     "display_time": "2016-10-27T17:13:23-07:00", 
     "noise": 1, 
@@ -279,11 +296,11 @@
     "direction": "FortyFiveDown", 
     "sgv": 75, 
     "dateString": "2016-10-27T15:53:28-07:00", 
-    "device": "openaps://indy-e3/cgm", 
-    "unfiltered": 86576, 
-    "rssi": 163, 
     "date": 1477608808000, 
+    "unfiltered": 86576, 
     "filtered": 98960, 
+    "device": "openaps://indy-e3/cgm", 
+    "rssi": 163, 
     "_id": "5812859a65110bbfc19470f4", 
     "type": "sgv", 
     "glucose": 75
@@ -313,11 +330,11 @@
     "direction": "NOT COMPUTABLE", 
     "sgv": 83, 
     "dateString": "2016-10-27T15:48:28-07:00", 
-    "device": "openaps://indy-e3/cgm", 
-    "unfiltered": 95200, 
-    "rssi": 178, 
     "date": 1477608508000, 
+    "unfiltered": 95200, 
     "filtered": 106000, 
+    "device": "openaps://indy-e3/cgm", 
+    "rssi": 178, 
     "_id": "5812846f65110bbfc19470f3", 
     "type": "sgv", 
     "glucose": 83
@@ -7339,22 +7356,5 @@
     "_id": "58114a8365110bbfc1946eae", 
     "type": "sgv", 
     "glucose": 121
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-10-26T17:23:28-07:00", 
-    "noise": 1, 
-    "system_time": "2016-10-27T00:11:20-07:00", 
-    "direction": "Flat", 
-    "sgv": 122, 
-    "dateString": "2016-10-26T17:23:28-07:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 127424, 
-    "rssi": 190, 
-    "date": 1477527808000, 
-    "filtered": 132352, 
-    "_id": "5811495365110bbfc1946ead", 
-    "type": "sgv", 
-    "glucose": 122
   }
 ]
