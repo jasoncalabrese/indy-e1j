@@ -1,5 +1,23 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 180, 
+    "_description": "BolusWizard 2016-10-29T10:20:46 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-10-29T10:20:46", 
+    "_body": "0c5000dc5a6e0000140000000014b4", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "ae940a1d10", 
+    "bolus_estimate": 0.5, 
+    "bg_target_low": 110, 
+    "carb_ratio": 22.0, 
+    "food_estimate": 0.5, 
+    "carb_input": 12, 
+    "sensitivity": 90
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-10-29T10:14:25 head[2], body[0] op[0x16]", 
