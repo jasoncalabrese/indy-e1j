@@ -7,30 +7,91 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-10-29T23:07:05.000Z", 
+      "timestamp": "2016-10-29T23:10:20.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 72.25, 
-    "clock": "2016-10-29T16:06:42-07:00"
+    "clock": "2016-10-29T16:10:37-07:00"
   }, 
   "uploader": {
-    "battery": 72, 
-    "batteryVoltage": 3898
+    "battery": 70, 
+    "batteryVoltage": 3883
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2016-10-29T23:08:43.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Oct 29 2016 15:58:22 GMT-0700 (PDT) but your system time is Sat Oct 29 2016 16:08:43 GMT-0700 (PDT)"
+      "bg": 96, 
+      "temp": "absolute", 
+      "snoozeBG": -17, 
+      "timestamp": "2016-10-29T23:12:04.000Z", 
+      "predBGs": {
+        "aCOB": [
+          96, 
+          90, 
+          83, 
+          77, 
+          71, 
+          66, 
+          61, 
+          57, 
+          54, 
+          52, 
+          50, 
+          49, 
+          48, 
+          47, 
+          47, 
+          46, 
+          45, 
+          45, 
+          45, 
+          45, 
+          45, 
+          46, 
+          47, 
+          48, 
+          49, 
+          50, 
+          52, 
+          53, 
+          53, 
+          54, 
+          55, 
+          55, 
+          56, 
+          56, 
+          57
+        ], 
+        "IOB": [
+          96, 
+          80, 
+          65, 
+          50, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39
+        ]
+      }, 
+      "reason": "COB: 18, Dev: -33, BGI: -10.82, ISF: 83, Target: 80; Eventual BG -29 < 80, setting -4U/hr, but 24m left and 0 ~ req 0U/hr: no action required", 
+      "COB": 18, 
+      "eventualBG": -29, 
+      "tick": -11, 
+      "IOB": 1.119
     }, 
     "iob": {
-      "netbasalinsulin": 1.65, 
-      "timestamp": "2016-10-29T23:06:42.000Z", 
-      "activity": 0.0261, 
-      "basaliob": 0.506, 
+      "netbasalinsulin": 1.6, 
+      "timestamp": "2016-10-29T23:10:37.000Z", 
+      "activity": 0.0262, 
+      "basaliob": 0.4, 
       "hightempinsulin": 2.05, 
-      "bolussnooze": 0.135, 
-      "iob": 1.272
+      "bolussnooze": 0.096, 
+      "iob": 1.119
     }, 
     "enacted": {
       "bg": 121, 
@@ -52,41 +113,41 @@
       [
         "916.540", 
         5, 
-        -58
+        -52
       ], 
       [
         "916.564", 
         5, 
-        -48
+        -43
       ], 
       [
         "916.588", 
         5, 
-        -45
+        -42
       ], 
       [
         "916.612", 
         5, 
-        -38
+        -41
       ], 
       [
         "916.636", 
         5, 
-        -39
+        -41
       ], 
       [
         "916.660", 
         5, 
-        -38
+        -42
       ], 
       [
         "916.684", 
         5, 
-        -42
+        -46
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-10-29T23:06:12.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2016-10-29T23:09:59.000Z", 
     "usedDefault": false
   }
 }
