@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2016-10-29T03:21:54.637Z", 
+    "created_at": "2016-10-29T03:28:15.574Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.564", 
           5, 
-          -47
+          -65
         ], 
         [
           "916.588", 
           5, 
-          -40
+          -60
         ], 
         [
           "916.612", 
           5, 
-          -39
+          -58
         ], 
         [
           "916.636", 
           5, 
-          -39
+          -58
         ], 
         [
           "916.660", 
-          5, 
-          -39
+          2, 
+          -83
         ], 
         [
           "916.684", 
-          5, 
-          -40
+          3, 
+          -78
         ], 
         [
           "916.708", 
-          5, 
-          -45
+          2, 
+          -91
         ]
       ], 
-      "setFreq": 916.66, 
+      "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2016-10-29T03:19:03.000Z"
+      "timestamp": "2016-10-29T03:25:32.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,77 +50,150 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-10-29T03:19:24.000Z", 
+        "timestamp": "2016-10-29T03:26:21.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 126.65, 
-      "clock": "2016-10-28T20:19:42-07:00"
+      "reservoir": 125.175, 
+      "clock": "2016-10-28T20:26:13-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 216, 
+        "bg": 207, 
         "temp": "absolute", 
-        "snoozeBG": 107, 
-        "timestamp": "2016-10-29T03:21:25.000Z", 
-        "rate": 0.875, 
-        "reason": "COB: 0, Dev: -1, BGI: -6.32, ISF: 83, Target: 106; Eventual BG 107 > 106 but Min. Delta -8.00 < Exp. Delta -6.4; setting current basal of 0.875 as temp", 
-        "COB": 0, 
+        "snoozeBG": 147, 
+        "timestamp": "2016-10-29T03:28:07.000Z", 
+        "predBGs": {
+          "COB": [
+            207, 
+            205, 
+            202, 
+            199, 
+            195, 
+            191, 
+            186, 
+            181, 
+            176, 
+            170, 
+            164, 
+            158, 
+            151, 
+            145, 
+            139, 
+            132, 
+            126, 
+            120, 
+            114, 
+            110, 
+            105, 
+            101, 
+            98, 
+            95, 
+            93, 
+            91, 
+            89, 
+            88, 
+            88, 
+            87, 
+            88, 
+            88, 
+            89, 
+            90, 
+            91, 
+            93, 
+            95, 
+            97, 
+            99, 
+            101, 
+            103, 
+            105, 
+            107
+          ], 
+          "aCOB": [
+            207, 
+            210, 
+            213, 
+            215, 
+            216, 
+            217, 
+            216, 
+            215, 
+            214, 
+            212, 
+            209, 
+            206, 
+            202, 
+            199, 
+            194, 
+            190, 
+            185, 
+            181, 
+            176, 
+            172, 
+            169, 
+            165, 
+            162, 
+            159, 
+            156, 
+            153, 
+            151, 
+            148, 
+            146, 
+            144, 
+            142, 
+            141, 
+            139, 
+            138, 
+            137, 
+            136
+          ], 
+          "IOB": [
+            207, 
+            204, 
+            201, 
+            197, 
+            192, 
+            187, 
+            180, 
+            173, 
+            165, 
+            157, 
+            148, 
+            139, 
+            129, 
+            120, 
+            110, 
+            100, 
+            91, 
+            82, 
+            73, 
+            65, 
+            58, 
+            51, 
+            45, 
+            39
+          ]
+        }, 
+        "reason": "COB: 34, Dev: -11, BGI: -6.32, ISF: 83, Target: 106; Eventual BG 107 > 106 but Min. Delta -9.00 < Exp. Delta 0.7, temp 0.875 ~ req 0.875U/hr", 
+        "COB": 34, 
         "eventualBG": 107, 
-        "duration": 30, 
-        "tick": -8, 
-        "IOB": 1.312
+        "tick": -9, 
+        "IOB": 2.613
       }, 
       "iob": {
-        "netbasalinsulin": 1.9, 
-        "timestamp": "2016-10-29T03:19:42.000Z", 
+        "netbasalinsulin": 2.05, 
+        "timestamp": "2016-10-29T03:26:13.000Z", 
         "activity": 0.0153, 
-        "basaliob": 1.306, 
-        "hightempinsulin": 2.15, 
-        "bolussnooze": 0, 
-        "iob": 1.312
+        "basaliob": 1.261, 
+        "hightempinsulin": 2.2, 
+        "bolussnooze": 1.35, 
+        "iob": 2.613
       }, 
       "enacted": {
         "bg": 216, 
         "temp": "absolute", 
         "snoozeBG": 107, 
         "recieved": true, 
-        "predBGs": {
-          "IOB": [
-            216, 
-            208, 
-            200, 
-            193, 
-            186, 
-            178, 
-            171, 
-            164, 
-            157, 
-            151, 
-            145, 
-            139, 
-            133, 
-            128, 
-            123, 
-            119, 
-            115, 
-            111, 
-            108, 
-            105, 
-            102, 
-            100, 
-            98, 
-            96, 
-            94, 
-            93, 
-            91, 
-            90, 
-            90, 
-            89, 
-            89, 
-            88
-          ]
-        }, 
         "reason": "COB: 0, Dev: -1, BGI: -6.32, ISF: 83, Target: 106; Eventual BG 107 > 106 but Min. Delta -8.00 < Exp. Delta -6.4; setting current basal of 0.875 as temp", 
         "rate": 0.875, 
         "COB": 0, 
@@ -132,10 +205,10 @@
       }
     }, 
     "uploader": {
-      "battery": 57, 
-      "batteryVoltage": 3748
+      "battery": 56, 
+      "batteryVoltage": 3742
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "581415d245ce720f18e10f35"
+    "_id": "5814174f45ce720f18e10f36"
   }
 ]
