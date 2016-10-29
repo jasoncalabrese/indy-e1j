@@ -7,30 +7,30 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-10-29T02:07:29.000Z", 
+      "timestamp": "2016-10-29T02:13:18.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 128.625, 
-    "clock": "2016-10-28T19:07:46-07:00"
+    "reservoir": 128.475, 
+    "clock": "2016-10-28T19:13:35-07:00"
   }, 
   "uploader": {
-    "battery": 60, 
-    "batteryVoltage": 3785
+    "battery": 59, 
+    "batteryVoltage": 3766
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2016-10-29T02:09:11.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Fri Oct 28 2016 18:53:18 GMT-0700 (PDT) but your system time is Fri Oct 28 2016 19:09:11 GMT-0700 (PDT)"
+      "timestamp": "2016-10-29T02:15:28.000Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Fri Oct 28 2016 18:53:18 GMT-0700 (PDT) but your system time is Fri Oct 28 2016 19:15:28 GMT-0700 (PDT)"
     }, 
     "iob": {
-      "netbasalinsulin": 0.6, 
-      "timestamp": "2016-10-29T02:07:46.000Z", 
-      "activity": 0.0076, 
-      "basaliob": 0.845, 
-      "hightempinsulin": 1.25, 
+      "netbasalinsulin": 0.75, 
+      "timestamp": "2016-10-29T02:13:35.000Z", 
+      "activity": 0.0084, 
+      "basaliob": 0.932, 
+      "hightempinsulin": 1.35, 
       "bolussnooze": 0, 
-      "iob": 1.115
+      "iob": 1.166
     }, 
     "enacted": {
       "bg": 188, 
@@ -52,41 +52,41 @@
       [
         "916.564", 
         5, 
-        -53
+        -59
       ], 
       [
         "916.588", 
         5, 
-        -46
+        -52
       ], 
       [
         "916.612", 
         5, 
-        -44
+        -50
       ], 
       [
         "916.636", 
         5, 
-        -44
+        -50
       ], 
       [
         "916.660", 
         5, 
-        -44
+        -50
       ], 
       [
         "916.684", 
-        4, 
-        -57
+        5, 
+        -51
       ], 
       [
         "916.708", 
         5, 
-        -50
+        -56
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2016-10-29T02:07:02.000Z", 
+    "timestamp": "2016-10-29T02:12:57.000Z", 
     "usedDefault": false
   }
 }
