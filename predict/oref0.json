@@ -1,27 +1,29 @@
 {
-  "bg": 153, 
+  "bg": 142, 
   "temp": "absolute", 
-  "snoozeBG": 19, 
+  "snoozeBG": 22, 
   "predBGs": {
     "IOB": [
-      153, 
-      137, 
-      123, 
-      109, 
-      96, 
-      85, 
-      74, 
-      64, 
-      56, 
-      49, 
-      43, 
+      142, 
+      127, 
+      114, 
+      101, 
+      89, 
+      78, 
+      68, 
+      59, 
+      52, 
+      45, 
+      39, 
       39, 
       39
     ]
   }, 
-  "reason": "COB: 0, Dev: -31, BGI: -10.58, ISF: 81, Target: 105; Eventual BG 19 < 105, setting -3.525U/hr, but 21m left and 0 ~ req 0U/hr: no action required", 
+  "rate": 0, 
+  "reason": "COB: 0, Dev: -28, BGI: -10.3, ISF: 81, Target: 105; Eventual BG 22 < 105, setting -3.375U/hr", 
   "COB": 0, 
-  "eventualBG": 19, 
-  "tick": -16, 
-  "IOB": 1.274
+  "eventualBG": 22, 
+  "duration": 30, 
+  "tick": -11, 
+  "IOB": 1.14
 }
