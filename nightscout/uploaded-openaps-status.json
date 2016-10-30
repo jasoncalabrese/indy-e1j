@@ -1,0 +1,96 @@
+[
+  {
+    "created_at": "2016-10-30T00:41:22.828Z", 
+    "mmtune": {
+      "scanDetails": [
+        [
+          "916.564", 
+          5, 
+          -65
+        ], 
+        [
+          "916.588", 
+          5, 
+          -59
+        ], 
+        [
+          "916.612", 
+          5, 
+          -59
+        ], 
+        [
+          "916.636", 
+          5, 
+          -59
+        ], 
+        [
+          "916.660", 
+          5, 
+          -58
+        ], 
+        [
+          "916.684", 
+          5, 
+          -64
+        ], 
+        [
+          "916.708", 
+          2, 
+          -90
+        ]
+      ], 
+      "setFreq": 916.66, 
+      "usedDefault": false, 
+      "timestamp": "2016-10-30T00:39:09.000Z"
+    }, 
+    "pump": {
+      "battery": {
+        "status": "normal", 
+        "voltage": 1.39
+      }, 
+      "status": {
+        "status": "normal", 
+        "timestamp": "2016-10-30T00:39:30.000Z", 
+        "bolusing": false, 
+        "suspended": false
+      }, 
+      "reservoir": 68.85, 
+      "clock": "2016-10-29T17:39:47-07:00"
+    }, 
+    "openaps": {
+      "suggested": {
+        "timestamp": "2016-10-30T00:41:14.000Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Oct 29 2016 17:28:23 GMT-0700 (PDT) but your system time is Sat Oct 29 2016 17:41:14 GMT-0700 (PDT)"
+      }, 
+      "iob": {
+        "netbasalinsulin": 2.3, 
+        "timestamp": "2016-10-30T00:39:47.000Z", 
+        "activity": 0.0149, 
+        "basaliob": 1.678, 
+        "hightempinsulin": 2.85, 
+        "bolussnooze": 0.151, 
+        "iob": 2.158
+      }, 
+      "enacted": {
+        "bg": 219, 
+        "temp": "absolute", 
+        "snoozeBG": 209, 
+        "recieved": true, 
+        "reason": "COB: 0, Dev: 88, BGI: -4.82, ISF: 80, Target: 80; Eventual BG 166 >= 80, temp 2.35<2.85U/hr", 
+        "rate": 2.85, 
+        "COB": 0, 
+        "eventualBG": 166, 
+        "timestamp": "2016-10-30T00:23:01.000Z", 
+        "duration": 30, 
+        "tick": "+12", 
+        "IOB": 1.758
+      }
+    }, 
+    "uploader": {
+      "battery": 63, 
+      "batteryVoltage": 3807
+    }, 
+    "device": "openaps://indy-e1", 
+    "_id": "581541b228ea73997b9d5faf"
+  }
+]
