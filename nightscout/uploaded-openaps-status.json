@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2016-10-30T00:41:22.828Z", 
+    "created_at": "2016-10-30T00:49:12.867Z", 
     "mmtune": {
       "scanDetails": [
         [
+          "916.540", 
+          4, 
+          -82
+        ], 
+        [
           "916.564", 
-          5, 
-          -65
-        ], 
-        [
-          "916.588", 
-          5, 
-          -59
-        ], 
-        [
-          "916.612", 
-          5, 
-          -59
-        ], 
-        [
-          "916.636", 
-          5, 
-          -59
-        ], 
-        [
-          "916.660", 
           5, 
           -58
         ], 
         [
-          "916.684", 
+          "916.588", 
           5, 
-          -64
+          -60
         ], 
         [
-          "916.708", 
-          2, 
-          -90
+          "916.612", 
+          5, 
+          -58
+        ], 
+        [
+          "916.636", 
+          5, 
+          -57
+        ], 
+        [
+          "916.660", 
+          5, 
+          -72
+        ], 
+        [
+          "916.684", 
+          5, 
+          -76
         ]
       ], 
-      "setFreq": 916.66, 
+      "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2016-10-30T00:39:09.000Z"
+      "timestamp": "2016-10-30T00:45:54.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,26 +50,26 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-10-30T00:39:30.000Z", 
+        "timestamp": "2016-10-30T00:46:17.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 68.85, 
-      "clock": "2016-10-29T17:39:47-07:00"
+      "reservoir": 68.5, 
+      "clock": "2016-10-29T17:46:35-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "timestamp": "2016-10-30T00:41:14.000Z", 
-        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Oct 29 2016 17:28:23 GMT-0700 (PDT) but your system time is Sat Oct 29 2016 17:41:14 GMT-0700 (PDT)"
+        "timestamp": "2016-10-30T00:49:03.000Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Oct 29 2016 17:38:24 GMT-0700 (PDT) but your system time is Sat Oct 29 2016 17:49:03 GMT-0700 (PDT)"
       }, 
       "iob": {
-        "netbasalinsulin": 2.3, 
-        "timestamp": "2016-10-30T00:39:47.000Z", 
-        "activity": 0.0149, 
-        "basaliob": 1.678, 
-        "hightempinsulin": 2.85, 
-        "bolussnooze": 0.151, 
-        "iob": 2.158
+        "netbasalinsulin": 2.6, 
+        "timestamp": "2016-10-30T00:46:35.000Z", 
+        "activity": 0.0167, 
+        "basaliob": 1.865, 
+        "hightempinsulin": 3.1, 
+        "bolussnooze": 0.097, 
+        "iob": 2.297
       }, 
       "enacted": {
         "bg": 219, 
@@ -87,10 +87,10 @@
       }
     }, 
     "uploader": {
-      "battery": 63, 
-      "batteryVoltage": 3807
+      "battery": 62, 
+      "batteryVoltage": 3796
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "581541b228ea73997b9d5faf"
+    "_id": "5815438828ea73997b9d5fb0"
   }
 ]
