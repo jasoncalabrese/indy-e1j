@@ -1,5 +1,22 @@
 [
   {
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-10-31T16:13:13-07:00", 
+    "noise": 1, 
+    "system_time": "2016-10-31T22:06:33-07:00", 
+    "direction": "Flat", 
+    "sgv": 80, 
+    "dateString": "2016-10-31T16:13:13-07:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 82656, 
+    "rssi": 200, 
+    "date": 1477955593000, 
+    "filtered": 84112, 
+    "_id": "5817d0d965110bbfc1947a00", 
+    "type": "sgv", 
+    "glucose": 80
+  }, 
+  {
     "trend_arrow": "45_DOWN", 
     "display_time": "2016-10-31T16:08:13-07:00", 
     "noise": 1, 
@@ -75,11 +92,11 @@
     "direction": "NOT COMPUTABLE", 
     "sgv": 96, 
     "dateString": "2016-10-31T15:48:16-07:00", 
-    "device": "openaps://indy-e3/cgm", 
-    "unfiltered": 95968, 
-    "rssi": 416, 
     "date": 1477954096000, 
+    "unfiltered": 95968, 
     "filtered": 101872, 
+    "device": "openaps://indy-e3/cgm", 
+    "rssi": 416, 
     "_id": "5817ca6265110bbfc19479f9", 
     "type": "sgv", 
     "glucose": 96
@@ -109,11 +126,11 @@
     "direction": "NOT COMPUTABLE", 
     "sgv": 99, 
     "dateString": "2016-10-31T15:43:16-07:00", 
-    "device": "openaps://indy-e3/cgm", 
-    "unfiltered": 99008, 
-    "rssi": 677, 
     "date": 1477953796000, 
+    "unfiltered": 99008, 
     "filtered": 106800, 
+    "device": "openaps://indy-e3/cgm", 
+    "rssi": 677, 
     "_id": "5817c93365110bbfc19479f6", 
     "type": "sgv", 
     "glucose": 99
@@ -7427,22 +7444,5 @@
     "_id": "5816811e65110bbfc194779c", 
     "type": "sgv", 
     "glucose": 247
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-10-30T16:18:18-07:00", 
-    "noise": 1, 
-    "system_time": "2016-10-30T22:11:38-07:00", 
-    "direction": "Flat", 
-    "sgv": 248, 
-    "dateString": "2016-10-30T16:18:18-07:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 226208, 
-    "rssi": 183, 
-    "date": 1477869498000, 
-    "filtered": 231744, 
-    "_id": "5816802565110bbfc194779b", 
-    "type": "sgv", 
-    "glucose": 248
   }
 ]
