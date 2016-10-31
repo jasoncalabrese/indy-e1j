@@ -3,49 +3,27 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.57
+      "voltage": 1.58
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-10-31T01:59:23.000Z", 
+      "timestamp": "2016-10-31T02:03:44.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 38.875, 
-    "clock": "2016-10-30T18:59:41-07:00"
+    "reservoir": 38.85, 
+    "clock": "2016-10-30T19:03:53-07:00"
   }, 
   "uploader": {
     "battery": 58, 
-    "batteryVoltage": 3760
+    "batteryVoltage": 3758
   }, 
   "openaps": {
     "suggested": {
       "bg": 72, 
       "temp": "absolute", 
-      "snoozeBG": 122, 
-      "timestamp": "2016-10-31T02:01:08.000Z", 
-      "reason": "COB: 0, Dev: -17, BGI: 2.93, ISF: 90, Target: 110; BG 72<80, delta 19>0; setting current basal of 0.65 as temp. Setting neutral temp basal of 0.65U/hr", 
-      "rate": 0.65, 
-      "COB": 0, 
-      "eventualBG": 122, 
-      "duration": 30, 
-      "tick": "+19", 
-      "IOB": -0.741
-    }, 
-    "iob": {
-      "netbasalinsulin": -0.65, 
-      "timestamp": "2016-10-31T01:59:41.000Z", 
-      "activity": -0.0065, 
-      "basaliob": -0.741, 
-      "hightempinsulin": 0.6, 
-      "bolussnooze": 0, 
-      "iob": -0.741
-    }, 
-    "enacted": {
-      "bg": 72, 
-      "temp": "absolute", 
-      "snoozeBG": 122, 
-      "recieved": true, 
+      "snoozeBG": 118, 
+      "timestamp": "2016-10-31T02:05:39.000Z", 
       "predBGs": {
         "IOB": [
           72, 
@@ -55,38 +33,51 @@
           76, 
           78, 
           80, 
-          83, 
-          86, 
-          89, 
-          92, 
-          96, 
+          82, 
+          85, 
+          88, 
+          91, 
+          94, 
+          97, 
           100, 
           103, 
-          107, 
+          105, 
+          108, 
           110, 
-          114, 
-          117, 
+          112, 
+          113, 
+          115, 
+          116, 
+          118, 
+          119, 
           120, 
+          121, 
+          121, 
           122, 
-          124, 
-          127, 
-          129, 
-          130, 
-          132, 
-          133, 
-          135, 
-          136, 
-          137, 
-          137, 
-          138, 
-          138, 
-          139, 
-          139, 
-          139, 
-          139, 
-          140
+          122, 
+          123
         ]
       }, 
+      "reason": "COB: 0, Dev: -18, BGI: 3.06, ISF: 90, Target: 110; BG 72<80, delta 19>0, temp 0.65 ~ req 0.65U/hr", 
+      "COB": 0, 
+      "eventualBG": 118, 
+      "tick": "+19", 
+      "IOB": -0.712
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.8, 
+      "timestamp": "2016-10-31T02:03:53.000Z", 
+      "activity": -0.0068, 
+      "basaliob": -0.712, 
+      "hightempinsulin": 0.45, 
+      "bolussnooze": 0, 
+      "iob": -0.712
+    }, 
+    "enacted": {
+      "bg": 72, 
+      "temp": "absolute", 
+      "snoozeBG": 122, 
+      "recieved": true, 
       "rate": 0.65, 
       "reason": "COB: 0, Dev: -17, BGI: 2.93, ISF: 90, Target: 110; BG 72<80, delta 19>0; setting current basal of 0.65 as temp. Setting neutral temp basal of 0.65U/hr", 
       "COB": 0, 
@@ -102,7 +93,7 @@
       [
         "916.564", 
         5, 
-        -78
+        -76
       ], 
       [
         "916.588", 
@@ -112,31 +103,31 @@
       [
         "916.612", 
         5, 
-        -72
+        -71
       ], 
       [
         "916.636", 
         5, 
-        -72
+        -67
       ], 
       [
         "916.660", 
         5, 
-        -72
+        -67
       ], 
       [
         "916.684", 
         5, 
-        -75
+        -71
       ], 
       [
         "916.708", 
         5, 
-        -84
+        -81
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2016-10-31T01:59:02.000Z", 
+    "timestamp": "2016-10-31T02:03:23.000Z", 
     "usedDefault": false
   }
 }
