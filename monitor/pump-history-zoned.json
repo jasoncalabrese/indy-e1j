@@ -1,5 +1,32 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-10-30T21:15:40 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-30T21:15:40-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "a88f151e10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-30T21:15:40 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-30T21:15:40-07:00", 
+    "_body": "00", 
+    "_head": "3382", 
+    "rate": 3.25, 
+    "_date": "a88f151e10"
+  }, 
+  {
+    "_type": "PumpResume", 
+    "_description": "PumpResume 2016-10-30T21:15:32 head[2], body[0] op[0x1f]", 
+    "timestamp": "2016-10-30T21:15:32-07:00", 
+    "_body": "", 
+    "_head": "1f20", 
+    "_date": "a08f151e10"
+  }, 
+  {
     "_type": "PumpSuspend", 
     "_description": "PumpSuspend 2016-10-30T21:05:18 head[2], body[0] op[0x1e]", 
     "timestamp": "2016-10-30T21:05:18-07:00", 
@@ -669,43 +696,5 @@
     "_head": "3332", 
     "rate": 1.25, 
     "_date": "90910f5e10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-30T15:10:07 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-30T15:10:07-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "878a0f5e10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-30T15:10:07 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-30T15:10:07-07:00", 
-    "_body": "00", 
-    "_head": "336f", 
-    "rate": 2.775, 
-    "_date": "878a0f5e10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-30T15:10:07 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-30T15:10:07-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "878a0f5e10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-30T15:10:07 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-30T15:10:07-07:00", 
-    "_body": "00", 
-    "_head": "336f", 
-    "rate": 2.775, 
-    "_date": "878a0f5e10"
   }
 ]
