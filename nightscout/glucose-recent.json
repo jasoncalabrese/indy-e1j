@@ -1,5 +1,22 @@
 [
   {
+    "trend_arrow": "DOUBLE_UP", 
+    "display_time": "2016-11-02T15:56:23-07:00", 
+    "noise": 1, 
+    "system_time": "2016-11-02T22:44:00-07:00", 
+    "direction": "DoubleUp", 
+    "sgv": 124, 
+    "dateString": "2016-11-02T15:56:23-07:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 101024, 
+    "rssi": 209, 
+    "date": 1478127383000, 
+    "filtered": 84336, 
+    "_id": "581a6f5065110bbfc1947ea9", 
+    "type": "sgv", 
+    "glucose": 124
+  }, 
+  {
     "trend_arrow": "SINGLE_UP", 
     "display_time": "2016-11-02T15:51:23-07:00", 
     "noise": 1, 
@@ -296,11 +313,11 @@
     "direction": "FortyFiveDown", 
     "sgv": 77, 
     "dateString": "2016-11-02T14:26:26-07:00", 
-    "date": 1478121986000, 
-    "unfiltered": 67824, 
-    "filtered": 75200, 
     "device": "openaps://indy-e3/cgm", 
+    "unfiltered": 67824, 
     "rssi": 931, 
+    "date": 1478121986000, 
+    "filtered": 75200, 
     "_id": "581a5a4c65110bbfc1947e8c", 
     "type": "sgv", 
     "glucose": 77
@@ -330,11 +347,11 @@
     "direction": "FortyFiveDown", 
     "sgv": 84, 
     "dateString": "2016-11-02T14:21:25-07:00", 
-    "device": "openaps://indy-e3/cgm", 
-    "unfiltered": 72528, 
-    "rssi": 418, 
     "date": 1478121685000, 
+    "unfiltered": 72528, 
     "filtered": 81648, 
+    "device": "openaps://indy-e3/cgm", 
+    "rssi": 418, 
     "_id": "581a592365110bbfc1947e8a", 
     "type": "sgv", 
     "glucose": 84
@@ -1375,22 +1392,5 @@
     "_id": "581a1c8c65110bbfc1947e31", 
     "type": "sgv", 
     "glucose": 105
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-11-02T09:56:24-07:00", 
-    "noise": 1, 
-    "system_time": "2016-11-02T16:44:01-07:00", 
-    "direction": "Flat", 
-    "sgv": 109, 
-    "dateString": "2016-11-02T09:56:24-07:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 85840, 
-    "rssi": 199, 
-    "date": 1478105784000, 
-    "filtered": 89920, 
-    "_id": "581a1b0365110bbfc1947e30", 
-    "type": "sgv", 
-    "glucose": 109
   }
 ]
