@@ -1,11 +1,10 @@
 {
-  "bg": 79, 
+  "bg": 70, 
   "temp": "absolute", 
   "snoozeBG": 18, 
   "predBGs": {
     "IOB": [
-      79, 
-      69, 
+      70, 
       60, 
       51, 
       43, 
@@ -16,14 +15,13 @@
       39, 
       39, 
       39, 
+      39, 
       39
     ]
   }, 
-  "rate": 0, 
-  "reason": "COB: 0, Dev: -25, BGI: -6.24, ISF: 89, Target: 110; BG 79<80", 
+  "reason": "COB: 0, Dev: -25, BGI: -5.97, ISF: 89, Target: 110; BG 70<80, but 29m left and 0 ~ req 0U/hr: no action required", 
   "COB": 0, 
   "eventualBG": 18, 
-  "duration": 30, 
   "tick": -9, 
-  "IOB": 0.401
+  "IOB": 0.307
 }
