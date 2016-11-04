@@ -7,86 +7,83 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-11-04T12:21:24.000Z", 
+      "timestamp": "2016-11-04T12:34:07.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 38.675, 
-    "clock": "2016-11-04T05:21:41-07:00"
+    "reservoir": 38.55, 
+    "clock": "2016-11-04T05:34:15-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4365
+    "batteryVoltage": 4366
   }, 
   "openaps": {
     "suggested": {
-      "bg": 164, 
+      "bg": 163, 
       "temp": "absolute", 
-      "snoozeBG": 127, 
-      "timestamp": "2016-11-04T12:23:49.000Z", 
-      "reason": "COB: 0, Dev: 9, BGI: -3.91, ISF: 84, Target: 107; Eventual BG 127 >= 107, 28m@0.600 = 0.280 > req 0.05+20%. Setting temp basal of 0.625U/hr", 
-      "rate": 0.625, 
+      "snoozeBG": 142, 
+      "timestamp": "2016-11-04T12:36:03.000Z", 
+      "predBGs": {
+        "IOB": [
+          163, 
+          162, 
+          161, 
+          160, 
+          158, 
+          157, 
+          155, 
+          154, 
+          152, 
+          150, 
+          148, 
+          146, 
+          144, 
+          142, 
+          139, 
+          137, 
+          135, 
+          133, 
+          131, 
+          129, 
+          127, 
+          125, 
+          124, 
+          122, 
+          121, 
+          119, 
+          118, 
+          117, 
+          116, 
+          115, 
+          115, 
+          114, 
+          114, 
+          113, 
+          113, 
+          112
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 16, BGI: -3.53, ISF: 84, Target: 107; Eventual BG 142 >= 107, temp 1.05<1.25U/hr, but 30m left and 1.05 ~ req 1.25U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 127, 
-      "duration": 30, 
-      "tick": -4, 
-      "IOB": 0.552
+      "eventualBG": 142, 
+      "tick": "+0", 
+      "IOB": 0.442
     }, 
     "iob": {
-      "netbasalinsulin": 1.4, 
-      "timestamp": "2016-11-04T12:21:41.000Z", 
-      "activity": 0.0093, 
-      "basaliob": 0.552, 
+      "netbasalinsulin": 1.5, 
+      "timestamp": "2016-11-04T12:34:15.000Z", 
+      "activity": 0.0084, 
+      "basaliob": 0.442, 
       "hightempinsulin": 1.5, 
       "bolussnooze": 0, 
-      "iob": 0.552
+      "iob": 0.442
     }, 
     "enacted": {
       "bg": 164, 
       "temp": "absolute", 
       "snoozeBG": 127, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          164, 
-          160, 
-          156, 
-          152, 
-          149, 
-          145, 
-          142, 
-          139, 
-          136, 
-          133, 
-          130, 
-          127, 
-          125, 
-          122, 
-          120, 
-          118, 
-          115, 
-          113, 
-          111, 
-          109, 
-          107, 
-          105, 
-          104, 
-          102, 
-          101, 
-          100, 
-          98, 
-          97, 
-          96, 
-          96, 
-          95, 
-          94, 
-          94, 
-          93, 
-          93, 
-          93, 
-          92
-        ]
-      }, 
       "rate": 0.625, 
       "reason": "COB: 0, Dev: 9, BGI: -3.91, ISF: 84, Target: 107; Eventual BG 127 >= 107, 28m@0.600 = 0.280 > req 0.05+20%. Setting temp basal of 0.625U/hr", 
       "COB": 0, 
@@ -101,42 +98,42 @@
     "scanDetails": [
       [
         "916.564", 
-        5, 
-        -90
+        4, 
+        -78
       ], 
       [
         "916.588", 
         5, 
-        -86
+        -68
       ], 
       [
         "916.612", 
-        5, 
-        -86
+        4, 
+        -74
       ], 
       [
         "916.636", 
-        5, 
-        -86
+        3, 
+        -80
       ], 
       [
         "916.660", 
         5, 
-        -86
+        -67
       ], 
       [
         "916.684", 
         5, 
-        -87
+        -71
       ], 
       [
         "916.708", 
-        5, 
-        -94
+        3, 
+        -88
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2016-11-04T12:21:00.000Z", 
+    "timestamp": "2016-11-04T12:33:35.000Z", 
     "usedDefault": false
   }
 }
