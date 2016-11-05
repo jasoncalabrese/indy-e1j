@@ -20,7 +20,7 @@
   "current_basal_safety_multiplier": 6, 
   "override_high_target_with_low": true, 
   "sens": 90, 
-  "carbratio_adjustmentratio": 0.9, 
+  "carbratio_adjustmentratio": 0.8, 
   "basalprofile": [
     {
       "i": 0, 
@@ -93,7 +93,6 @@
   "bolussnooze_dia_divisor": 2, 
   "dia": 3, 
   "autosens_adjust_targets": true, 
-  "carb_ratio": 19.8, 
-  "model": "723", 
+  "carb_ratio": 17.6, 
   "autosens_max": 1.5
 }
