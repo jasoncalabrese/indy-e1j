@@ -1,14 +1,15 @@
 [
   {
+    "profile": "", 
     "carbs": null, 
     "eventType": "Temporary Target", 
-    "created_at": "2016-11-08T09:00:53.822Z", 
+    "created_at": "2016-11-08T09:00:00.000Z", 
     "targetBottom": 80, 
     "enteredBy": "Dad", 
     "targetTop": 80, 
     "reason": "Eating Soon", 
     "insulin": null, 
-    "duration": 60, 
+    "duration": 120, 
     "_id": "5821944565110bbfc1948c83"
   }, 
   {
