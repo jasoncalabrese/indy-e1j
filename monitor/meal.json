@@ -1,5 +1,4 @@
 {
-  "boluses": 0, 
-  "mealCOB": 40, 
-  "carbs": 41
+  "carbs": 0, 
+  "reason": "not enough glucose data to calculate carb absorption"
 }
