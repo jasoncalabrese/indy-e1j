@@ -1,6 +1,6 @@
 [
   {
-    "created_at": "2016-11-10T17:20:15.695Z", 
+    "created_at": "2016-11-10T17:25:31.257Z", 
     "mmtune": {
       "scanDetails": [
         [
@@ -11,32 +11,37 @@
         [
           "916.588", 
           5, 
-          -55
+          -57
         ], 
         [
           "916.612", 
-          5, 
-          -56
+          4, 
+          -65
         ], 
         [
           "916.636", 
-          5, 
-          -59
+          3, 
+          -75
         ], 
         [
           "916.660", 
           5, 
-          -51
+          -60
         ], 
         [
           "916.684", 
           5, 
-          -55
+          -61
+        ], 
+        [
+          "916.708", 
+          5, 
+          -70
         ]
       ], 
-      "setFreq": 916.66, 
+      "setFreq": 916.588, 
       "usedDefault": false, 
-      "timestamp": "2016-11-10T17:17:02.000Z"
+      "timestamp": "2016-11-10T17:23:06.000Z"
     }, 
     "pump": {
       "battery": {
@@ -45,46 +50,23 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-11-10T17:17:48.000Z", 
+        "timestamp": "2016-11-10T17:23:30.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 110.075, 
-      "clock": "2016-11-10T09:17:15-08:00"
+      "reservoir": 110, 
+      "clock": "2016-11-10T09:23:19-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 127, 
+        "bg": 125, 
         "temp": "absolute", 
-        "snoozeBG": 111, 
-        "timestamp": "2016-11-10T17:19:43.000Z", 
-        "rate": 0.6, 
-        "reason": "COB: 0, Dev: 6, BGI: -3.38, ISF: 77, Target: 108; Eventual BG 111 >= 108, temp 0.55<0.6U/hr", 
-        "COB": 0, 
-        "eventualBG": 111, 
-        "duration": 30, 
-        "tick": -2, 
-        "IOB": 0.292
-      }, 
-      "iob": {
-        "netbasalinsulin": 0.85, 
-        "timestamp": "2016-11-10T17:17:15.000Z", 
-        "activity": 0.0088, 
-        "basaliob": 0.221, 
-        "hightempinsulin": 0.95, 
-        "bolussnooze": 0, 
-        "iob": 0.292
-      }, 
-      "enacted": {
-        "bg": 127, 
-        "temp": "absolute", 
-        "snoozeBG": 111, 
-        "recieved": true, 
+        "snoozeBG": 110, 
+        "timestamp": "2016-11-10T17:25:22.000Z", 
         "predBGs": {
           "IOB": [
-            127, 
-            124, 
-            122, 
+            125, 
+            123, 
             120, 
             118, 
             116, 
@@ -93,18 +75,47 @@
             113, 
             112, 
             111, 
-            110, 
+            111, 
             110, 
             109, 
             109, 
             108, 
             108, 
+            108, 
             107, 
             107, 
             107, 
-            106
+            107, 
+            107, 
+            107, 
+            106, 
+            106, 
+            106, 
+            106, 
+            106, 
+            107
           ]
         }, 
+        "reason": "COB: 0, Dev: 4, BGI: -3.04, ISF: 77, Target: 108; Eventual BG 110 >= 108, temp 0.575<0.6U/hr, but 27m left and 0.575 ~ req 0.6U/hr: no action required", 
+        "COB": 0, 
+        "eventualBG": 110, 
+        "tick": -2, 
+        "IOB": 0.243
+      }, 
+      "iob": {
+        "netbasalinsulin": 0.9, 
+        "timestamp": "2016-11-10T17:23:19.000Z", 
+        "activity": 0.0079, 
+        "basaliob": 0.192, 
+        "hightempinsulin": 0.95, 
+        "bolussnooze": 0, 
+        "iob": 0.243
+      }, 
+      "enacted": {
+        "bg": 127, 
+        "temp": "absolute", 
+        "snoozeBG": 111, 
+        "recieved": true, 
         "reason": "COB: 0, Dev: 6, BGI: -3.38, ISF: 77, Target: 108; Eventual BG 111 >= 108, temp 0.55<0.6U/hr", 
         "rate": 0.575, 
         "COB": 0, 
@@ -116,10 +127,10 @@
       }
     }, 
     "uploader": {
-      "battery": 78, 
-      "batteryVoltage": 3963
+      "battery": 79, 
+      "batteryVoltage": 3972
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "5824ac4ffbbd754e08578154"
+    "_id": "5824ad8bfbbd754e08578155"
   }
 ]
